@@ -1,0 +1,3 @@
+running
+tearDown
+	CCMock unenforceContractC

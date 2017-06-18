@@ -1,0 +1,1 @@
+A mock object with many dummy methods with different type signatures for testing type contracts.

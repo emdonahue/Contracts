@@ -1,0 +1,3 @@
+violating
+satisfiesContractC: anObject
+	^ true

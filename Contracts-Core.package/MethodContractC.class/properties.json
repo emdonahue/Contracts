@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "EvanDonahue 5/11/2017 14:07",
+	"super" : "Object",
+	"category" : "Contracts-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pragma",
+		"argContracts",
+		"returnContract"
+	],
+	"name" : "MethodContractC",
+	"type" : "normal"
+}

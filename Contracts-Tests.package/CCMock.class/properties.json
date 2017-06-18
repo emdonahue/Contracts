@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EvanDonahue 5/11/2017 14:16",
+	"super" : "Object",
+	"category" : "Contracts-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CCMock",
+	"type" : "normal"
+}

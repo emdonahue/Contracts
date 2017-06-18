@@ -1,0 +1,3 @@
+accessing
+selector
+	^ pragma methodSelector

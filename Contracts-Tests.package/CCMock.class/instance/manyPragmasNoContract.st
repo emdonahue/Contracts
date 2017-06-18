@@ -1,0 +1,4 @@
+mocking
+manyPragmasNoContract
+	<somePragma>
+	<otherPragma>

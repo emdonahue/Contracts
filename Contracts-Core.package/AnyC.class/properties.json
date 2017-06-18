@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EvanDonahue 5/11/2017 14:18",
+	"super" : "ContractC",
+	"category" : "Contracts-Core-Combinators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AnyC",
+	"type" : "normal"
+}
