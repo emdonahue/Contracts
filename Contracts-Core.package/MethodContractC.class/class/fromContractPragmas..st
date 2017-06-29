@@ -1,5 +1,5 @@
-as yet unclassified
-fromPragma: aPragma
+instance creation
+fromContractPragmas: aPragma
 	^ self new
 		argContracts: (aPragma arguments allButLast collect: #asContractC);
 		returnContract: aPragma arguments last asContractC;

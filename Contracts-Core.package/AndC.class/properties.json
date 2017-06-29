@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ContractC",
+	"category" : "Contracts-Core-Combinators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contracts"
+	],
+	"name" : "AndC",
+	"type" : "normal"
+}

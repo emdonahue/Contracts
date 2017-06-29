@@ -1,4 +1,4 @@
 combinators
 isNumberOrIsString: anObject
-	<type: #(#isNumber #isString) returns: #(#isNumber #isString)>
+	<type: #(#OrC #isNumber #isString) returns: #(#OrC #isNumber #isString)>
 	^ anObject
