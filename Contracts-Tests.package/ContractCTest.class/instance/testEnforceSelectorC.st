@@ -1,6 +1,6 @@
 selector
 testEnforceSelectorC
-	(CCMock >> #selectorC:) enforceContractC.
+	(CCMock >> #selectorC:) contractC enforceC.
 	obj return: 42.
 	self assert: (obj selectorC: 'string') equals: 42.
 	self should: [ obj selectorC: 42 ] raise: ContractViolation.

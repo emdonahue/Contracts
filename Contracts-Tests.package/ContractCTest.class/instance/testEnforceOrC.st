@@ -1,6 +1,6 @@
 or
 testEnforceOrC
-	(CCMock >> #orC:) enforceContractC.
+	(CCMock >> #orC:) contractC enforceC.
 	obj return: 42.
 	self assert: (obj orC: 42) equals: 42.
 	obj return: 'string'.

@@ -2,4 +2,4 @@
 enforceContractC
 	"Apply contracts to any method that has a type signature."
 
-	self methodDictionary valuesDo: #enforceContractC
+	self methodDictionary valuesDo: [ :m | m contractC enforceC]
