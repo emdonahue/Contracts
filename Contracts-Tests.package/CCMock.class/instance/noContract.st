@@ -1,2 +1,2 @@
-mocking
+pragmas
 noContract

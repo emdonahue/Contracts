@@ -1,6 +1,6 @@
-mocking
+pragmas
 manyPragmas
 	<somePragma>
-	<returns: #UndefinedObject>
+	<returns: #String>
 	<otherPragma>
-	^ nil
+	^ return

@@ -1,4 +1,4 @@
-mocking
+pragmas
 manyPragmasNoContract
 	<somePragma>
 	<otherPragma>
