@@ -1,4 +1,4 @@
-tests
+and
 testAndC
 	| cc argC retC |
 	cc := (CCMock >> #andC:) contractC.
@@ -8,11 +8,12 @@ testAndC
 	self assert: (argC contracts first isKindOf: ClassC).
 	self assert: (argC contracts second isKindOf: SelectorC).
 	self assert: (retC isKindOf: AndC).
-	self assert: (retC contracts first isKindOf: SelectorC).
-	self assert: (retC contracts second isKindOf: ClassC).
+	self assert: (retC contracts first isKindOf: ClassC).
+	self assert: (retC contracts second isKindOf: SelectorC).
+	
 	self assert: (argC satisfiesContractC: '').
 	self deny: (argC satisfiesContractC: #()).
 	self deny: (argC satisfiesContractC: 'string').
 	self assert: (retC satisfiesContractC: '').
 	self deny: (retC satisfiesContractC: #()).
-	self deny: (retC satisfiesContractC: 'string').
+	self deny: (retC satisfiesContractC: 'string')
