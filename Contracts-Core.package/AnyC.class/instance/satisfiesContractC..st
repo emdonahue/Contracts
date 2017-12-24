@@ -1,3 +1,3 @@
-violating
+subclassresponsibility
 satisfiesContractC: anObject
 	^ true

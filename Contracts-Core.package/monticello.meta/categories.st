@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'Contracts-Core'!
-SystemOrganization addCategory: 'Contracts-Core-Combinators'!
+SystemOrganization addCategory: #'Contracts-Core-Combinators'!

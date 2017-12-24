@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "EvanDonahue 12/24/2017 14:11",
+	"super" : "ContractC",
+	"category" : "Contracts-Core-Combinators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contracts"
+	],
+	"name" : "ContractCombinatorC",
+	"type" : "normal"
+}

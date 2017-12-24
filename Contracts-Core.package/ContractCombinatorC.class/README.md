@@ -1,0 +1,1 @@
+A contract parameterized by subcontracts.

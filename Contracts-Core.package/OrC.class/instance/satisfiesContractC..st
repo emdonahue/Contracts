@@ -1,3 +1,3 @@
-as yet unclassified
+subclassresponsibility
 satisfiesContractC: anObject
 	^ contracts anySatisfy: [ :c | c satisfiesContractC: anObject  ]
