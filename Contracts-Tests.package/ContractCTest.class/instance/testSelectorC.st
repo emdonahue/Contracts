@@ -9,6 +9,7 @@ testSelectorC
 	self assert: (argC satisfiesContractC: 'string').
 	self deny: (argC satisfiesContractC: 42).
 	self assert: (retC isKindOf: SelectorC).
-	self assert: retC selector equals: #isNumber.
+	self assert: retC selector equals: #even.
 	self deny: (retC satisfiesContractC: 'string').
-	self assert: (retC satisfiesContractC: 42)
+	self assert: (retC satisfiesContractC: 42).
+	self deny: (retC satisfiesContractC: 43).

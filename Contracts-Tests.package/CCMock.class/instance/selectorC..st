@@ -1,4 +1,4 @@
 combinators
 selectorC: aString
-	<type: #isString returns: #isNumber>
+	<type: #isString returns: #even>
 	^ return
