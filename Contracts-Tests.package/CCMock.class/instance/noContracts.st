@@ -1,0 +1,5 @@
+pragmas
+noContracts
+	<somePragma>
+	<otherPragma>
+	

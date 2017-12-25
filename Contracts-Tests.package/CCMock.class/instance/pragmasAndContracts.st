@@ -1,5 +1,5 @@
 pragmas
-manyPragmas
+pragmasAndContracts
 	<somePragma>
 	<returns: #String>
 	<otherPragma>

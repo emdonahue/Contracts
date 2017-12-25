@@ -1,4 +1,0 @@
-pragmas
-manyPragmasNoContract
-	<somePragma>
-	<otherPragma>
