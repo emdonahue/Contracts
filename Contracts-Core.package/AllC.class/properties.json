@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ContractCombinatorC",
+	"category" : "Contracts-Core-Combinators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AllC",
+	"type" : "normal"
+}
