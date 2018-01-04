@@ -1,5 +1,5 @@
 all
-testAllC
+testEnforceAllC
 	(CCMock >> #allC:) contractC enforceC.
 	obj return: true.
 	self should: [ obj allC: 42 ] raise: ContractViolation.
