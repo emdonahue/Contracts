@@ -1,4 +1,3 @@
 subclassresponsibility
 satisfiesContractC: anObject
-	^ (anObject respondsTo: selector) and: [ 
-	 anObject perform: selector ]
+	^ (anObject respondsTo: selector) and: [ anObject perform: selector ]

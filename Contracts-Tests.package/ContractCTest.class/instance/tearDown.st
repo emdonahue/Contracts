@@ -1,3 +1,3 @@
 running
 tearDown
-	CCMock unenforceContractC
+	CCMock unenforceContractC.

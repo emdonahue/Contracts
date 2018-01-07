@@ -1,1 +1,0 @@
-Error raised when a contract is violated.
