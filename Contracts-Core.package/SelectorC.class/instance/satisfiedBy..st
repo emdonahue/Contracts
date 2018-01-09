@@ -1,3 +1,3 @@
 subclassresponsibility
-satisfiesContractC: anObject
+satisfiedBy: anObject
 	^ (anObject respondsTo: selector) and: [ anObject perform: selector ]

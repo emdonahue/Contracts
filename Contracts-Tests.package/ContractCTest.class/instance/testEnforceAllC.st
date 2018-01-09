@@ -1,6 +1,10 @@
 all
 testEnforceAllC
-	(CCMock >> #allC:) contractC enforceC.
+	| c |
+	c := (CCMock >> #allC:) contractC enforceC.
+	self assert: (c argContracts first satisfiedBy: #(42)).
+	self assert: (c argContracts first satisfiedBy: #()).
+	self deny: (c argContracts first satisfiedBy: #('string')).
 	obj return: true.
 	self should: [ obj allC: 42 ] raise: ContractBreach.
 	self assert: (obj allC: #()).
@@ -10,3 +14,9 @@ testEnforceAllC
 	self assert: (obj allC: #(42 51) asOrderedCollection).
 	self assert: (obj allC: #(42 51) asSet).
 	self should: [ obj allC: #(42 symbol) ] raise: ContractBreach.
+	[ obj allC: #(42 symbol) ]
+		on: ContractBreach
+		do: [ :e | self assert: e messageText equals: 'Arg1 expected: Number received: symbol' ].
+	[ obj allC: 42 ]
+		on: ContractBreach
+		do: [ :e | self assert: e messageText equals: 'Arg1 expected: (AllC Number) received: 42' ]

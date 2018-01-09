@@ -7,9 +7,9 @@ run: aSelector with: someArgs in: anObject
 		withIndexDo: [ :c :i | 
 			[ self dischargeArgIndex: i contract: c argument: (someArgs at: i) ]
 				on: ContractBreach
-				do:
-					[ :e | (e setArgText: i) resignalAtBreachSite	"Signal argument contract errors at the point where the contracting method was called." ] ].
+				do: [ :e | 
+					(e setArgText: i) resignalAtBreachSite	"Signal argument contract errors at the point where the contracting method was called." ] ].
 	return := anObject withArgs: someArgs executeMethod: self method.
-	(returnContract satisfiesContractC: return)
+	(returnContract satisfiedBy: return)
 		ifFalse: [ ContractBreach returnContract: returnContract received: return ].
 	^ return

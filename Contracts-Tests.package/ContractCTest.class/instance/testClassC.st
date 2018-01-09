@@ -7,9 +7,9 @@ testClassC
 	retC := cc returnContract.
 	self assert: (argC isKindOf: ClassC).
 	self assert: argC supertype equals: String.
-	self assert: (argC satisfiesContractC: 'string').
-	self deny: (argC satisfiesContractC: 42).
+	self assert: (argC satisfiedBy: 'string').
+	self deny: (argC satisfiedBy: 42).
 	self assert: (retC isKindOf: ClassC).
 	self assert: retC supertype equals: Number.
-	self deny: (retC satisfiesContractC: 'string').
-	self assert: (retC satisfiesContractC: 42)
+	self deny: (retC satisfiedBy: 'string').
+	self assert: (retC satisfiedBy: 42)

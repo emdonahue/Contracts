@@ -1,8 +1,8 @@
 subclassresponsibility
-satisfiesContractC: aDoable
+satisfiedBy: aDoable
 	(aDoable respondsTo: #do:) ifFalse: [ ^ false ].
 	aDoable
 		do: [ :e | 
-			(contracts first satisfiesContractC: e)
+			(contracts first satisfiedBy: e)
 				ifFalse: [ ^ false ] ].
 	^ true

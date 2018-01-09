@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"contract",
-		"argument"
-	],
+	"instvars" : [ ],
 	"name" : "ContractBreach",
 	"type" : "normal"
 }

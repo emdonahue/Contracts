@@ -1,6 +1,7 @@
 and
 testAndC
 	| cc argC retC |
+	CTemp new blarg: 'blarg'.
 	cc := (CCMock >> #andC:) contractC.
 	argC := cc argContracts first.
 	retC := cc returnContract.
@@ -10,10 +11,9 @@ testAndC
 	self assert: (retC isKindOf: AndC).
 	self assert: (retC contracts first isKindOf: ClassC).
 	self assert: (retC contracts second isKindOf: SelectorC).
-	
-	self assert: (argC satisfiesContractC: '').
-	self deny: (argC satisfiesContractC: #()).
-	self deny: (argC satisfiesContractC: 'string').
-	self assert: (retC satisfiesContractC: '').
-	self deny: (retC satisfiesContractC: #()).
-	self deny: (retC satisfiesContractC: 'string')
+	self assert: (argC satisfiedBy: '').
+	self deny: (argC satisfiedBy: #()).
+	self deny: (argC satisfiedBy: 'string').
+	self assert: (retC satisfiedBy: '').
+	self deny: (retC satisfiedBy: #()).
+	self deny: (retC satisfiedBy: 'string')
