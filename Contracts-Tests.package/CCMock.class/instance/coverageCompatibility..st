@@ -1,4 +1,4 @@
 coverage
-coverageCompatibility: aString
-	<type: #isString returns: #isString>
-	^ return
+coverageCompatibility: aValue
+	<type: #String returns: #String>
+	^ aValue

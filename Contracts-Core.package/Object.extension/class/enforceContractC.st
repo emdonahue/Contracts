@@ -1,5 +1,9 @@
 *Contracts-Core
 enforceContractC
 	"Apply contracts to any method that has a type signature."
-
-	self methodDictionary valuesDo: [ :m | m contractC enforceC ].
+	<todo>
+	self methodDictionary
+		valuesDo: [ :m | 
+			(m isKindOf: CompiledMethod) | (m isKindOf: MethodContractC)
+				ifFalse: [ Transcript show: m asString ].
+			m contractC enforceC ]

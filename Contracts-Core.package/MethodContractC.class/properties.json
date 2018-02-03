@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"pragma",
 		"argContracts",
-		"returnContract"
+		"returnContract",
+		"method"
 	],
 	"name" : "MethodContractC",
 	"type" : "normal"

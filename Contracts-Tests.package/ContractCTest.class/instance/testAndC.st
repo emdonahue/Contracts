@@ -1,7 +1,6 @@
 and
 testAndC
 	| cc argC retC |
-	CTemp new blarg: 'blarg'.
 	cc := (CCMock >> #andC:) contractC.
 	argC := cc argContracts first.
 	retC := cc returnContract.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EvanDonahue 2/2/2018 18:17",
+	"super" : "MethodContractC",
+	"category" : "Contracts-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CoverageCompatC",
+	"type" : "normal"
+}
