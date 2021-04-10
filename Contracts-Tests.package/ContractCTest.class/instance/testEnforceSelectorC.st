@@ -8,4 +8,4 @@ testEnforceSelectorC
 	self should: [ obj selectorC: 'string' ] raise: ContractBreach.
 	[ obj selectorC: 'string' ]
 		on: ContractBreach
-		do: [ :e | self assert: e messageText equals: 'Return expected: #even received: string' ]
+		do: [ :e | self assert: e messageText equals: 'Return expected: #even received: string in CCMock>>#selectorC:' ]

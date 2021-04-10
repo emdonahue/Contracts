@@ -4,4 +4,4 @@ asContractC
 
 	^ self first isLowercase
 		ifTrue: [ SelectorC fromSelector: self ]
-		ifFalse: [ (Smalltalk globals at: self) asContractC	"This covers class contracts as well as all custom contracts." ]
+		ifFalse: [ (self class environment at: self) asContractC	"This covers class contracts as well as all custom contracts." ]

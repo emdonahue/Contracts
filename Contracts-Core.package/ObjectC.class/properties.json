@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AnyC",
+	"name" : "ObjectC",
 	"type" : "normal"
 }

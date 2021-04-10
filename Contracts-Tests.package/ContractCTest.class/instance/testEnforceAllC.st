@@ -16,7 +16,7 @@ testEnforceAllC
 	self should: [ obj allC: #(42 symbol) ] raise: ContractBreach.
 	[ obj allC: #(42 symbol) ]
 		on: ContractBreach
-		do: [ :e | self assert: e messageText equals: 'Arg1 expected: Number received: symbol' ].
+		do: [ :e | self assert: e messageText equals: 'Arg1 expected: Number received: symbol in CCMock>>#allC:' ].
 	[ obj allC: 42 ]
 		on: ContractBreach
-		do: [ :e | self assert: e messageText equals: 'Arg1 expected: (AllC Number) received: 42' ]
+		do: [ :e | self assert: e messageText equals: 'Arg1 expected: (AllC Number) received: 42 in CCMock>>#allC:' ]
