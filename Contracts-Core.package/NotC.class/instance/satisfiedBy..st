@@ -1,3 +1,3 @@
 subclassresponsibility
 satisfiedBy: anObject
-	^ (contracts first satisfiedBy: anObject) not
+	^ contracts allSatisfy: [ :c | (c satisfiedBy: anObject) not ].

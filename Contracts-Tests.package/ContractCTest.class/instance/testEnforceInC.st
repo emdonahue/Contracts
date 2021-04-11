@@ -1,5 +1,6 @@
 in
 testEnforceInC
+	<todo>
 	self skip.
 	(CCMock >> #inC:) contractC enforceC.
 	obj return: true.

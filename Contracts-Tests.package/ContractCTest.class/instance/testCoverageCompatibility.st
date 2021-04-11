@@ -1,5 +1,6 @@
 coverage
 testCoverageCompatibility
+	<todo> "Reexamine coverage possibly with metalinks."
 	| coverage |
 	self skip.
 	"coverage := (TestCoverage on: (CCMock >> #coverageCompatibility:) methodReference) install.

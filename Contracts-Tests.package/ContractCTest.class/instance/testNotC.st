@@ -11,6 +11,7 @@ testNotC
 	self assert: (argC satisfiedBy: 'string').
 	self assert: (argC satisfiedBy: #()).
 	self deny: (argC satisfiedBy: 42).
+	self deny: (argC satisfiedBy: #symbol).
 	self assert: (retC satisfiedBy: 42).
 	self assert: (retC satisfiedBy: #()).
 	self deny: (retC satisfiedBy: 'string')
