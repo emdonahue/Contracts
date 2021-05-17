@@ -1,3 +1,4 @@
 *Contracts-Core
 enforceContractC
-	self classes do: [:c | c enforceContractC]
+	<todo> "Figure out how to handle traits."
+	self classes do: [:c | (c isKindOf: Trait) ifFalse: [ c enforceContractC ] ].
