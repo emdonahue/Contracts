@@ -4,3 +4,5 @@ TODO
 - ensure that contracts check that their methods have the right number of args
 - remove all enforceC methods and replace with enforceContractC to prevent autocomplete from making a mistake
 - consider sign/void rather than enforce/unenforce
+- handle trait methods
+- handle class side methods
