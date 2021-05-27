@@ -6,3 +6,4 @@ TODO
 - consider sign/void rather than enforce/unenforce
 - handle trait methods
 - handle class side methods
+- add binary method contracts and use == as a check on when something returns itself
