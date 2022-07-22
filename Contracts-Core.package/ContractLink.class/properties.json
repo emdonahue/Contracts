@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MetaLink",
+	"category" : "Contracts-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ContractLink",
+	"type" : "normal"
+}

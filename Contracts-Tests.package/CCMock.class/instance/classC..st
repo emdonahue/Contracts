@@ -1,4 +1,4 @@
 combinators
 classC: aString
-	<type: #String returns: #Number>
+	<type: #String type: #Number>
 	^ return
