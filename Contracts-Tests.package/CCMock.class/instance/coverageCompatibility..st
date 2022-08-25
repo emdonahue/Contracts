@@ -1,4 +1,4 @@
 coverage
 coverageCompatibility: aValue
-	<type: #String returns: #String>
+	<type: #String type: #String>
 	^ aValue

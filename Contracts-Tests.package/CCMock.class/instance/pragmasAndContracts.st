@@ -1,6 +1,6 @@
 pragmas
 pragmasAndContracts
 	<somePragma>
-	<returns: #String>
+	<type: #String>
 	<otherPragma>
 	^ return

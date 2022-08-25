@@ -1,4 +1,4 @@
 combinators
 badSelectorC: aString
-	<type: #value returns: #value>
+	<type: #value type: #value>
 	^ return

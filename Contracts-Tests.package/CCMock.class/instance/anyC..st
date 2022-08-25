@@ -1,4 +1,4 @@
 combinators
 anyC: anObject
-	<type: #ObjectC returns: #ObjectC>
+	<type: #VoidC type: #VoidC>
 	^ anObject

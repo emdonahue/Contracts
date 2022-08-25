@@ -1,4 +1,4 @@
 combinators
 andC: anEmptyString
-	<type: #(AndC String isEmpty) returns: #(AndC String isEmpty)>
+	<type: #(AndC String isEmpty) type: #(AndC String isEmpty)>
 	^ return

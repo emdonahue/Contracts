@@ -1,4 +1,4 @@
 arguments
 zeroArg
-	<returns: #String>
+	<type: #String>
 	^ return

@@ -1,4 +1,4 @@
 combinators
 notC: aString
-	<type: #(NotC Number Symbol) returns: #(NotC String)>
+	<type: #(NotC Number Symbol) type: #(NotC String)>
 	^ return

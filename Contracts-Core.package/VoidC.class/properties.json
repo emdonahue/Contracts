@@ -2,10 +2,12 @@
 	"commentStamp" : "EvanDonahue 5/11/2017 14:18",
 	"super" : "ContractC",
 	"category" : "Contracts-Core-Combinators",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"singleton"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ObjectC",
+	"name" : "VoidC",
 	"type" : "normal"
 }

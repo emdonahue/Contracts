@@ -1,4 +1,4 @@
 combinators
 allC: aDoablue
-	<type: #(AllC Number) returns: #Boolean>
+	<type: #(AllC Number) type: #Boolean>
 	^ return

@@ -1,4 +1,4 @@
 compatibility
 calypsoEnvironmentType
-	self unenforceC.
+	self voidContract.
 	^ self method calypsoEnvironmentType.
