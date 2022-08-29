@@ -1,4 +1,4 @@
-not
+metalinks
 testEnforceNotC
 	(CCMock >> #notC:) contractC enforceC.
 	obj return: 42.

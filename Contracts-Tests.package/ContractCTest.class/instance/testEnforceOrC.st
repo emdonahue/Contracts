@@ -1,4 +1,4 @@
-or
+metalinks
 testEnforceOrC
 	(CCMock >> #orC:) contractC enforceC.
 	obj return: 42.

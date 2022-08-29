@@ -1,4 +1,4 @@
-any
+combinators
 testAnyC
 	| cc |
 	cc := (CCMock >> #anyC:) contractC.

@@ -1,4 +1,4 @@
-method
+metalinks
 testEnforceMethodC
 	CCMock enforceContractC.
 	obj return: 42.

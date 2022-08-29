@@ -1,4 +1,4 @@
-and
+metalinks
 testEnforceAndC
 	(CCMock >> #andC:) contractC enforceC.
 	obj return: ''.

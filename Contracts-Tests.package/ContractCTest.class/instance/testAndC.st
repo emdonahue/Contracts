@@ -1,4 +1,4 @@
-and
+combinators
 testAndC
 	| cc argC retC |
 	cc := (CCMock >> #andC:) contractC.

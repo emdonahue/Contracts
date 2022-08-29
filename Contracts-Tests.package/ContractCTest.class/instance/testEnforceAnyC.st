@@ -1,4 +1,4 @@
-any
+metalinks
 testEnforceAnyC
 	(CCMock >> #anyC:) contractC enforceC.
 	obj return: 42.

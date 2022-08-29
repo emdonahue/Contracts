@@ -1,4 +1,4 @@
-or
+combinators
 testOrC
 	| cc argC retC |
 	cc := (CCMock >> #orC:) contractC.

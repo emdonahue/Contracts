@@ -1,4 +1,4 @@
-arguments
+contracts
 testZeroArg
 	| cc |
 	cc := (CCMock >> #zeroArg) contractC.

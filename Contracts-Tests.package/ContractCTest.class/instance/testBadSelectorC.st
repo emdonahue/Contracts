@@ -1,4 +1,4 @@
-selector
+contracts
 testBadSelectorC
 	| cc argC retC |
 	cc := (CCMock >> #badSelectorC:) contractC.

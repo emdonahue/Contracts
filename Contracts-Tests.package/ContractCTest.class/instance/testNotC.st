@@ -1,4 +1,4 @@
-not
+combinators
 testNotC
 	| cc argC retC |
 	cc := (CCMock >> #notC:) contractC.

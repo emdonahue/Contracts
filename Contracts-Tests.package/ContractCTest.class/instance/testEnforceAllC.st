@@ -1,4 +1,4 @@
-all
+metalinks
 testEnforceAllC
 	| c |
 	c := (CCMock >> #allC:) contractC enforceC.

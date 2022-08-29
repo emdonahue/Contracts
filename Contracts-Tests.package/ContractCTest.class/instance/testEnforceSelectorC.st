@@ -1,4 +1,4 @@
-selector
+metalinks
 testEnforceSelectorC
 	(CCMock >> #selectorC:) contractC enforceC.
 	obj return: 42.

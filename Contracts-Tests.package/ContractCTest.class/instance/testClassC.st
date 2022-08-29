@@ -1,10 +1,8 @@
-class
+contracts
 testClassC
-	| cc argC retC |
-	cc := (CCMock >> #classC:) contractC.
-	self assert: (cc isKindOf: MethodContractC).
-	argC := cc argContracts first.
-	retC := cc returnContract.
+	| argC retC |
+	argC := ClassC new supertype: String.
+	retC := ClassC new supertype: Number.
 	self assert: (argC isKindOf: ClassC).
 	self assert: argC supertype equals: String.
 	self assert: (argC satisfiedBy: 'string').

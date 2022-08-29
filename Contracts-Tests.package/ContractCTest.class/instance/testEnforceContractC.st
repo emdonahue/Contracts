@@ -1,4 +1,4 @@
-enforcing
+metalinks
 testEnforceContractC
 	self assert: (CCMock >> #classC: isKindOf: CompiledMethod).
 	CCMock enforceContractC.
