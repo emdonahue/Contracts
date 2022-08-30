@@ -1,6 +1,6 @@
 as yet unclassified
 returnContract
 	^ self new
-		selector: #checkReturn:in:;
+		selector: #checkReturn:receiver:args:in:;
 		control: #after;
-		arguments: #(value context)
+		arguments: #(value receiver arguments context)

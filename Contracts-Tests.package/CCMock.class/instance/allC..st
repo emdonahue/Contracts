@@ -1,4 +1,4 @@
 combinators
-allC: aDoablue
+allC: aDoable
 	<type: #(AllC Number) type: #Boolean>
 	^ return

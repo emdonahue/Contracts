@@ -1,1 +1,0 @@
-A method wrapping contract that wraps TestCoverage objects, so that contracts do not interfere with coverage analysis.

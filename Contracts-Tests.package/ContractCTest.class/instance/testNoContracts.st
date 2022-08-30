@@ -1,3 +1,4 @@
 pragmas
 testNoContracts
-	self assert: ((CCMock >> #noContracts) contractC isKindOf: CompiledMethod)
+	(CCMock >> #noContracts) signContracts.
+	self deny: ((CCMock >> #noContracts) ast links includes: #isContractLink).

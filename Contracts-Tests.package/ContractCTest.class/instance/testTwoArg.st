@@ -1,10 +1,6 @@
 contracts
 testTwoArg
-	| cc |
-	cc := (CCMock >> #two:arg:) contractC.
-	self assert: cc argContracts size equals: 2.
-	self assert: (cc returnContract isKindOf: ClassC).
-	cc enforceC.
+	(CCMock >> #two:arg:) signContracts.
 	obj return: 'string'.
 	self assert: (obj two: 'string' arg: 'string') equals: 'string'.
 

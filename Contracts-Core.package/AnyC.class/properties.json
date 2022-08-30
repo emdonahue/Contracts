@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "EvanDonahue 8/29/2022 18:11",
-	"super" : "Object",
+	"commentStamp" : "",
+	"super" : "ContractCombinatorC",
 	"category" : "Contracts-Core-Combinators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ContractC",
+	"name" : "AnyC",
 	"type" : "normal"
 }

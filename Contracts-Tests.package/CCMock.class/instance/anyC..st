@@ -1,4 +1,4 @@
 combinators
-anyC: anObject
-	<type: #VoidC type: #VoidC>
-	^ anObject
+anyC: aDoablue
+	<type: #(AllC Number) type: #Boolean>
+	^ return

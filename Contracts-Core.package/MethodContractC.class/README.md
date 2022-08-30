@@ -1,1 +1,0 @@
-Wraps a method slot and applies any contracts specified in the method's pragmas to incoming and outgoing values.

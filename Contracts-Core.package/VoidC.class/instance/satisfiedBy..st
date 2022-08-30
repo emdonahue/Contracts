@@ -1,3 +1,0 @@
-subclassresponsibility
-satisfiedBy: anObject
-	^ true
