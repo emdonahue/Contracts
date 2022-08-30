@@ -1,6 +1,6 @@
 as yet unclassified
 argumentsContract
 	^ self new
-		selector: #checkArguments:in:;
+		selector: #checkArguments:receiver:in:;
 		control: #before;
-		arguments: #(arguments context)
+		arguments: #(arguments receiver context)

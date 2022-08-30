@@ -1,5 +1,5 @@
 discharging
-checkArguments: argArray in: aContext
+checkArguments: argArray receiver: theReceiver in: aContext
 
 	"AndC is reused as the contract for the argument array."
 
@@ -7,7 +7,7 @@ checkArguments: argArray in: aContext
 		[ 
 		self
 			check: x
-			receiver: nil
-			args: nil ]
+			receiver: theReceiver
+			args: argArray ]
 			on: ContractBreach
 			do: [ :e | (e arg: i) signalIn: aContext ] ]
