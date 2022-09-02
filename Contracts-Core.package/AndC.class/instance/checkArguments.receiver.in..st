@@ -1,8 +1,6 @@
 discharging
 checkArguments: argArray receiver: theReceiver in: aContext
-
 	"AndC is reused as the contract for the argument array."
-
 	argArray doWithIndex: [ :x :i | 
 		[ 
 		self

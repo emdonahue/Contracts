@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "MetaLink",
-	"category" : "Contracts-Core",
+	"category" : "Contracts-Core-Installing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

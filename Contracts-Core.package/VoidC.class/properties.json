@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EvanDonahue 5/11/2017 14:18",
 	"super" : "ContractC",
-	"category" : "Contracts-Core-Combinators",
+	"category" : "Contracts-Core-Primitives",
 	"classinstvars" : [
 		"singleton"
 	],

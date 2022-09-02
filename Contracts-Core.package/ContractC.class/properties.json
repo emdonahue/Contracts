@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EvanDonahue 8/29/2022 18:11",
 	"super" : "Object",
-	"category" : "Contracts-Core-Combinators",
+	"category" : "Contracts-Core-Primitives",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

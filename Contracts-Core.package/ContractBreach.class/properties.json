@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "EvanDonahue 1/5/2018 16:04",
 	"super" : "Error",
-	"category" : "Contracts-Core",
+	"category" : "Contracts-Core-Installing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"contractMsg"
+	],
 	"name" : "ContractBreach",
 	"type" : "normal"
 }
