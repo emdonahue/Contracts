@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"contractMsg"
+		"contractMsg",
+		"value"
 	],
 	"name" : "ContractBreach",
 	"type" : "normal"

@@ -8,4 +8,4 @@ checkArguments: argArray receiver: theReceiver in: aContext
 			receiver: theReceiver
 			args: argArray ]
 			on: ContractBreach
-			do: [ :e | (e arg: i) signalIn: aContext ] ]
+			do: [ :e | (e arg: i) signal"signalIn: aContext" ] ]
