@@ -1,3 +1,3 @@
 as yet unclassified
-fromPragmas: pragmaArgs
+asContractC: pragmaArgs
 	^ self new contracts: (pragmaArgs collect: #asContractC)

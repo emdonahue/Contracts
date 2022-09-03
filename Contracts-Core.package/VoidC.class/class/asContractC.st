@@ -1,3 +1,3 @@
 type constants
-void
+asContractC
 	^ singleton ifNil: [ singleton := self new ].
