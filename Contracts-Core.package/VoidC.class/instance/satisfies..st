@@ -1,0 +1,3 @@
+subclassresponsibility
+satisfies: aValue
+	^ true
