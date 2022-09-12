@@ -1,0 +1,3 @@
+private
+browse
+	method browse
