@@ -1,5 +1,5 @@
 metalinks
-testEnforceAllC
+testAllC
 	| c |
 	c := (CCMock >> #allC:) signContracts.
 	obj return: true.

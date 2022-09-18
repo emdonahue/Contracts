@@ -1,5 +1,5 @@
 metalinks
-testEnforceClassC
+testClassC
 	(CCMock >> #classC:) signContracts.
 	obj return: 42.
 	self assert: (obj classC: 'string') equals: 42.

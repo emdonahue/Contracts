@@ -8,6 +8,6 @@
 	"instvars" : [
 		"obj"
 	],
-	"name" : "ContractCTest",
+	"name" : "CCMockTest",
 	"type" : "normal"
 }

@@ -1,5 +1,5 @@
 metalinks
-testEnforceOrC
+testOrC
 	(CCMock >> #orC:) signContracts.
 	obj return: 42.
 	self assert: (obj orC: 42) equals: 42.

@@ -1,5 +1,5 @@
 metalinks
-testEnforceAndC
+testAndC
 	(CCMock >> #andC:) signContracts.
 	obj return: ''.
 	self assert: (obj andC: '') equals: ''.

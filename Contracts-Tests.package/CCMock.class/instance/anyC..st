@@ -1,4 +1,4 @@
 combinators
 anyC: aDoablue
-	<type: #(AllC Number) type: #Boolean>
+	<type: #(AnyC Number) type: #VoidC>
 	^ return

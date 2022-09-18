@@ -7,5 +7,5 @@ satisfiedBy: aCollection receiver: theReceiver args: theArgs
 				  c satisfiedBy: x
 					  receiver: theReceiver
 					  args: theArgs ]) 
-						ifFalse: [ ^ false ]]. 
-				true ]
+						ifTrue: [ ^ true ]]. 
+				false ]

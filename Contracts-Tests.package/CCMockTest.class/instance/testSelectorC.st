@@ -1,5 +1,5 @@
 metalinks
-testEnforceSelectorC
+testSelectorC
 	(CCMock >> #selectorC:) signContracts.
 	obj return: 42.
 	self assert: (obj selectorC: 'string') equals: 42.
