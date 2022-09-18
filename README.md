@@ -45,3 +45,6 @@ Metacello new
 	repository: 'github://emdonahue/Contracts';
 	load.
   ```
+  
+## Known Issues
+Due to a bug in MetaLinks, methods that return `self` implicitly (i.e. without an explicit `^ self`) will return twice, once with their usual value and once with `nil`. This will likely break return value contracts on those methods. The easiest solution is simply to return `^ self` explicitly until MetaLinks is patched. Once that happens, all the tests should pass, as one test depends on the correct MetaLinks behavior.
